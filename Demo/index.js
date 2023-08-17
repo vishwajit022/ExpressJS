@@ -11,6 +11,9 @@ app.get("/contact", (req, res) => {
     res.send("");
 
 })
+app.post("/register", (req, res) => { res.sendStatus(200); });
+
+
 
 app.get("/about", (req, res) => {
     res.send("<h1>About Me</h1>");
